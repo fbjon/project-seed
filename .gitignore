@@ -4,9 +4,11 @@
 # sbt specific
 .cache
 .history
+.project
+.sbtopts
 .lib/
 dist/*
-target/
+**/target/
 lib_managed/
 src_managed/
 project/boot/
@@ -15,3 +17,24 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+**/.idea/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Mac
+.DS_Store
+
+.grunt
+
+# Frontend dependency directories
+bower_components
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
