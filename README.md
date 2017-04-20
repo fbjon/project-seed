@@ -1,2 +1,4 @@
-# project-seed
+# Project Name
+
 Fork this repository to get a sensible starting point for any project
+
